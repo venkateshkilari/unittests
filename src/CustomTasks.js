@@ -13,7 +13,8 @@ export default () => {
   return (
     <div>
       {todos && todos.length == 3 && (
-        <span className="todo-item">{todos[0]}</span>
+        <span>
+        <span className="todo-item">{todos[0]}</span></span>
       )}
     </div>
   );
